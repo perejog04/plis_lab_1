@@ -10,3 +10,15 @@
 ## История изменений
 
 - **[Ветка new-feature]:** Отредактировано описание репозитория.
+
+### Как скомпилировать проект
+
+`iverilog -g2012 -o apb_tb.out tb_apb_slave.sv apb_slave.sv`
+
+### Как запустить симуляцию
+
+`vvp apb_tb.out`
+
+### Как увидеть waveforms
+
+`gtkwave wave.vcd`
